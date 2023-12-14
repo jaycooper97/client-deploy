@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 // Images
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -69,7 +68,7 @@ function About() {
                     {/* END */}
                 </div>
             </div>
-          
+
             </div>
     );
 };
