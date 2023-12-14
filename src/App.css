@@ -1,0 +1,423 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  background-color: #fe5000;
+}
+
+/*h3s*/
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  font-size: 25.7px;
+  color: black;
+}
+
+/*h2s*/
+.head {
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25.7px;
+  color: black;
+}
+
+/*input fields of form*/
+.input {
+  display: flex;
+  width: 50%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/*phone number, email, hours*/
+.info {
+  font-size: 19.7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 30px;
+}
+
+/*descriptions*/
+.des {
+  font-size: 19.7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 32.7px;
+  color: black;
+}
+
+/*Attraction form input styles*/
+.emptyFields {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+/*Inputs for New Attraction Form*/
+.create input{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+/*Modal Image*/
+.modal-body img{
+  text-align: center;
+}
+
+/*Thanks for stopping*/
+.end {
+  font-size: 19.7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black
+}
+
+
+
+/*when input fields have errors*/
+input.error {
+  border: 2px solid red;
+}
+
+
+
+@media screen and (max-width: 1280px) {    /*1280x800*/
+
+
+  /*h3s*/
+  .title {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    font-size: 30px
+  }
+
+  /*h2s*/
+  .head {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+  /*input fields of form*/
+  .input {
+    display: flex;
+    width: 50%;
+    color: #fe5000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  /*edits entire form*/
+  .container {
+    height: 300px;
+    width: 2000px;
+    margin-bottom: 10px;
+  }
+
+  /*phone number, email, hours*/
+  .info {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 32.7px;
+    color: whitesmoke;
+  }
+
+  /*descriptions*/
+  .des {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 32.7px;
+    color: whitesmoke;
+  }
+
+
+  /*Thanks for stopping*/
+  .end {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  }
+}
+
+@media screen and (max-width: 1024px) {     /*1024x600*/
+  body {
+    background-color: #003087;
+  }
+
+  /*h3s*/
+  .title {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+
+  /*h2s*/
+  .head {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: whitesmoke;
+  }
+
+  /*input fields of form*/
+  .input {
+    display: flex;
+    width: 50%;
+    color:	#ff712f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+
+  /*edits entire form*/
+  .container {
+    height: 300px;
+    width: 2000px;
+    margin-bottom: 10px;
+  }
+
+  /*phone number, email, hours*/
+  .info {
+    font-size: 23px;
+    font-family: monospace;
+    line-height: 32.7px;
+    color: #ff712f;
+  }
+
+  /*descriptions*/
+  .des {
+    font-size: 23px;
+    font-family: monospace;
+    line-height: 32.7px;
+    color: #ff712f;
+  }
+
+  /*Thanks for stopping*/
+  .end{
+    font-size: 23px;
+    font-family: monospace;
+    color: #ff712f;
+  }
+
+}
+
+@media screen and (max-width: 912px) {     /*912x1368*/
+    /*h3s*/
+    .title {
+      font-weight: bold;
+      font-style: italic;
+      font-family: serif;
+      margin-bottom: 5px;
+      font-size: 40px;
+      color: #ff712f;
+    }
+
+    /*h2s*/
+    .head {
+      font-style: italic;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 40px;
+      color: #fe5000;
+    }
+
+    /*input fields of form*/
+    .input {
+      display: flex;
+      width: 50%;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 30px;
+    }
+
+    /*edits entire form*/
+    .container {
+      height: 300px;
+      width: 2000px;
+      margin-bottom: 10px;
+    }
+
+    /*phone number, email, hours*/
+    .info {
+      font-size: 19.7px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      line-height: 32.7px;
+      color: antiquewhite;
+    }
+
+    /*descriptions*/
+    .des {
+      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      line-height: 35px;
+      color: antiquewhite;
+    }
+
+    /*Thanks for stopping*/
+    .end{
+      font-size: 19.7px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: antiquewhite;
+    }
+}
+
+@media screen and (max-width: 540px) {  /*540x720*/
+      /*h3s*/
+      .title {
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-family: monospace;
+        margin-bottom: 5px;
+        font-size: 30px;
+        color: #1969fd8c;
+      }
+
+      /*h2s*/
+      .head {
+        text-align: center;
+        font-style: italic;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #fa4f00;
+      }
+
+      /*input fields of form*/
+      .input {
+        display: flex;
+        width: 50%;
+        color: #003087;
+        font-family: monospace;
+      }
+
+      /*edits entire form*/
+      .container {
+        height: 200px;
+        width: 1000px;
+        margin-bottom: 75px;
+      }
+
+      /*phone number, email, hours*/
+      .info {
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 32.7px;
+        color: antiquewhite;
+      }
+
+      /*descriptions*/
+      .des {
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 25px;
+        color: antiquewhite;
+      }
+
+      /*Thanks for stopping*/
+      .end{
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: antiquewhite;
+      }
+}
+
+@media screen and (max-width: 430px) {   /*430x932*/
+    /*h3s*/
+    .title {
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+      font-family: cursive;
+      margin-bottom: 5px;
+      font-size: 30px;
+      color: rgb(189, 189, 189);
+    }
+
+    /*h2s*/
+    .head {
+      text-align: center;
+      font-style: italic;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 30px;
+      color: #1e8af0;
+    }
+
+    /*input fields of form*/
+    .input {
+      display: flex;
+      width: 50%;
+      color: #1048af;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /*edits entire form*/
+    .container {
+      height: 200px;
+      width: 1000px;
+      margin-bottom: 75px;
+    }
+
+    /*phone number, email, hours*/
+    .info {
+      font-size: 22.6px;
+      font-family: serif;
+      line-height: 32.7px;
+      color: rgb(241, 148, 42);
+    }
+
+    /*descriptions*/
+    .des {
+      font-size: 22.6px;
+      font-family: serif;
+      line-height: 25px;
+      color: rgb(241, 148, 42);
+    }
+
+    /*Thanks for stopping*/
+    .end{
+      font-size: 22.6px;
+      font-family: serif;
+      color: rgb(241, 148, 42);
+    }
+}
