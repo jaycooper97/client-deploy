@@ -1,6 +1,5 @@
 // Footer.js
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faGoogle, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faHome, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
@@ -16,22 +15,22 @@ function Footer() {
                         <span>Get connected with us on social networks:</span>
                     </div>
                     <div>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGoogle} />
                         </a>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href='#' className='me-4 text-reset'>
+                        <a href='' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </div>
@@ -51,22 +50,18 @@ function Footer() {
                             <div md='3' lg='2' xl='2' className='mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                                 <p>
-                                    <a href='#!' className='text-reset'>
+                                    <a href='/' className='text-reset'>
                                         Home
                                     </a>
                                 </p>
                                 <p>
-                                    <a href='#!' className='text-reset'>
+                                    <a href='/about' className='text-reset'>
                                         About
                                     </a>
                                 </p>
+                           
                                 <p>
-                                    <a href='#!' className='text-reset'>
-                                        Categories
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href='#!' className='text-reset'>
+                                    <a href='/contact' className='text-reset'>
                                         Contact
                                     </a>
                                 </p>

@@ -33,7 +33,7 @@ function About() {
                                 <b><u> Contact: </u></b>
                                 <br />
                             </p>
-                            <a href='' className='me-4 text-reset'>
+                            <a href='git@github.com:DennisLinneman/AboutMe.git' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function About() {
                                 Content from Alykaa About Page
                                 <b><u> Contact: </u></b>
                                 <br />
-                                <a href='' className='me-4 text-reset'>
+                                <a href='it@github.com:Salaaha2/aboutme.git' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGithub}/></a>
                             </p>
                         </div>
